@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap");
+
+h3 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.box {
+  cursor: pointer;
+}
+.box {
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-weight: 600;
+    
+    margin: 0px 1.5% 1.5% 0px;
+}
+.green{
+    background-color: #28a92b;
+    color: #28a92b;
+}
+.purple {
+    background-color: #8d3dae;
+    color: #8d3dae;
+}
+.orange {
+    background-color: #e77614;
+    color: #e77614;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 200vh;
+  margin: 0;
+}
+.box {
+  display: block;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
